@@ -1,0 +1,255 @@
+<html>
+    <head>
+        <title>Quiz</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dongle:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Gideon+Roman&family=Great+Vibes&family=Lobster&family=Lobster+Two:ital,wght@1,700&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Praise&family=Tangerine:wght@400;700&display=swap');
+
+        *{
+            font-family: 'Oleo Script Swash Caps', cursive;
+        }
+
+        body{
+            background: linear-gradient(#4CB8C4,#3CD3AD);
+            color: white;
+            font-family: 'Oleo Script Swash Caps', cursive;
+            text-align: center;
+        }
+
+        .question-box{
+            background-color: coral;
+            border-radius: 10px;
+            padding: 5px;
+            width: 350px;
+            margin: auto;
+            box-shadow: 10px 10px 10px grey;
+            margin-bottom: 50px;
+        }
+        
+        .options{
+            height: 100px;
+            width: 100px;
+        }
+        
+        table{
+            margin: auto;
+        }
+
+        .Instructions{
+            text-align: center;
+        }
+        
+        .questions{
+            display: flex;
+        }
+        
+        .footer{
+            background-color: lightseagreen;
+            text-align: center;
+            height: 80px;
+            padding: 40px;
+            color: white;
+        }
+
+        #submit{
+            padding: 10px;
+            border-radius: 5px;
+            background-color: lightgreen;
+            color: azure;
+            font-family: 'Oleo Script Swash Caps', cursive;
+            width: 100px;
+        }
+
+        </style>
+    </head>
+    <body>
+        <u>
+        <h1>Quizzler</h1>
+        </u>
+        <div class="Instructions">
+        <marquee>
+        <h2>Instructions:</h2>
+        <p>1. Kindly select the correct optionsfor the given questions.</p>
+        <p>2. Total score will be out of 5.</p>
+        </marquee>
+        </div>
+        <div class="questions">
+        <div class="question-box">
+            <h2>Q1.What is Your Name?</h2>
+            <table>
+            <tr>
+            <td><input type="radio" value="Daniel" name="name"></td>
+            <td><lable for="">Daniel</lable></input></td>
+            </tr>
+
+            <tr>
+            <td><input type="radio" value="Riyan" name="name"></td>
+            <td><lable for="">Riyan</lable></input></td>
+            </tr>
+                
+            <tr>
+            <td><input type="radio" value="Harvie" name="name"></td>
+            <td><lable for="">Harvie</lable></input></td>
+            </tr>
+                
+            <tr></tr>
+            <td><input type="radio" value="Vijay" name="name"></td>
+            <td><lable for="">Vijay</lable></input></td>
+            </tr>
+            </table><br>
+        </div>
+                
+            <div class="question-box">
+                <h2>Q2.What is the full form of CSS?</h2>
+                <table>
+                <tr>
+                <td><input type="radio" value="HyperTextMarkupLanguage" name="style"></td>
+                <td><lable for="">Hyper Text Markup Language</lable></input></td>
+                </tr>
+    
+                <tr>
+                <td><input type="radio" value="CascadingStyleSheet" name="style"></td>
+                <td><lable for="">Cascading Style Sheet</lable></input></td>
+                </tr>
+                    
+                <tr>
+                <td><input type="radio" value="StyleCascadindSheet" name="style"></td>
+                <td><lable for="">Style Cascading Sheet</lable></input></td>
+                </tr>
+                    
+                <tr></tr>
+                <td><input type="radio" value="HyperMarkupText" name="style"></td>
+                <td><lable for="">Hyper Language Markup Text</lable></input></td>
+                </tr>
+                </table><br>
+            </div>
+    
+            </label>
+
+            <div class="question-box">
+                <h2>Q3.What is The full form of HTML?</h2>
+                <table>
+                <tr>
+                <td><input type="radio" value="HappyTimesMostLiken" name="html"></td>
+                <td><lable for="">Happy Times Most Liken</lable></input></td>
+                </tr>
+    
+                <tr>
+                <td><input type="radio" value="TextMarkupHyperLanguage" name="html"></td>
+                <td><lable for="">Text Markup Hyper Language</lable></input></td>
+                </tr>
+                    
+                <tr>
+                <td><input type="radio" value="CascadingStyleSheet" name="html"></td>
+                <td><lable for="">Cascading Style Sheet</lable></input></td>
+                </tr>
+                    
+                <tr></tr>
+                <td><input type="radio" value="HyperTextMarkupLanguage" name="html"></td>
+                <td><lable for="">Hyper Text Markup Language</lable></input></td>
+                </tr>
+                </table><br>
+            </div>
+        </div>
+    
+            </label>
+            <div class="questions">
+            <div class="question-box">
+                <h2>Q4.What is Javascript Used For?</h2>
+                <table>
+                <tr>
+                <td><input type="radio" value="Behaviour" name="Javascript"></td>
+                <td><lable for="">Behaviour</lable></input></td>
+                </tr>
+    
+                <tr>
+                <td><input type="radio" value="Structure" name="Javascript"></td>
+                <td><lable for="">Structure</lable></input></td>
+                </tr>
+                    
+                <tr>
+                <td><input type="radio" value="Style" name="Javascript"></td>
+                <td><lable for="">Style</lable></input></td>
+                </tr>
+                    
+                <tr></tr>
+                <td><input type="radio" value="Layout" name="Javascript"></td>
+                <td><lable for="">Layout</lable></input></td>
+                </tr>
+                </table><br>
+            </div>
+    
+            </label>
+
+            <div class="question-box">
+                <h2>Q5. What is Web-Development?</h2>
+                <table>
+                <tr>
+                <td><input type="radio" value="Boring" name="Web-Development"></td>
+                <td><lable for="">Boring</lable></input></td>
+                </tr>
+    
+                <tr>
+                <td><input type="radio" value="Fun" name="Web-Development"></td>
+                <td><lable for="">Fun</lable></input></td>
+                </tr>
+                    
+                <tr>
+                <td><input type="radio" value="Hard" name="Web-Development"></td>
+                <td><lable for="">Hard</lable></input></td>
+                </tr>
+                    
+                <tr></tr>
+                <td><input type="radio" value="Bad" name="Web-Development"></td>
+                <td><lable for="">Bad</lable></input></td>
+                </tr>
+                </table><br>
+            </label>
+        </label>
+        </div>
+        </div><br>
+        <button id="submit" onclick="CalcuateScore()">Submit</button>
+        <h3>- Only Press When All Questions Are Answered!</h3>
+    <div class="footer">
+        <h2><marquee>This Website Was Created By Harvie Patel.</marquee></h2>
+    </div>
+    </body>
+    <script>
+        function CalcuateScore()
+        {
+            var q1 = document.querySelector('input[type=radio][name="name"]:checked');
+            var q2 = document.querySelector('input[type=radio][name="style"]:checked');
+            var q3 = document.querySelector('input[type=radio][name="html"]:checked');
+            var q4 = document.querySelector('input[type=radio][name="Javascript"]:checked');
+            var q5 = document.querySelector('input[type=radio][name="Web-Development"]:checked');
+            var a = "/5";
+        
+            var score = 0;
+
+            if(q1.value == "Harvie")
+            {
+                score = score+1;
+            }
+
+            if(q2.value == "CascadingStyleSheet")
+            {
+                score = score+1;
+            }
+
+            if(q3.value == "HyperTextMarkupLanguage")
+            {
+                score = score+1;
+            }
+
+            if(q4.value == "Behaviour")
+            {
+                score = score+1;
+            }
+
+            if(q5.value == "Fun")
+            {
+                score = score+1;
+            }
+            alert("Your Final Score is "+score +a);
+        }
+    </script>
+</html>
